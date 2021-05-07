@@ -285,6 +285,10 @@ body { color: #fff }
     margin-bottom: 27px;
 
 }
+.footer-widget h5 {
+    margin-bottom: 27px;
+
+}
 h5 {
     font-family: 'confused', sans-serif;
     font-size: 40px;
