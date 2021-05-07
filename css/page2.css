@@ -1,0 +1,201 @@
+body {
+    background: linear-gradient(to right, #202831 0%, #4d4d4f 100%);
+     font-size: 12px;}
+
+
+textarea {
+  color: #3d4852;
+  font-family: 'Muli', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+  
+  line-height: 1;
+}
+
+h2 {
+  
+  margin-top: 0;
+  color:#fff;
+  font-family: "KG Do You Love Me Regular" , sans-serif;
+  
+  letter-spacing: 1px;
+}
+
+a {
+  color: inherit;
+  transition: 0.25s all ease-in-out;
+}
+
+a:visited {
+  color: #3d4852;
+}
+
+a:hover,
+a:focus,
+a:active {
+  background-color: #3d4852;
+  color: white;
+}
+
+a:focus {
+  outline: thin solid #3d4852;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+a.button {
+  align-items: center;
+  background-color: #3d4852;
+  border: 1px solid #3d4852;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 0.25rem 0.75rem;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;   
+}
+
+a.button:hover,
+a.button:focus {
+  background-color: #58636F;
+  box-shadow: 0 0 2px 2px #bac6d3;
+}
+
+a.button:focus {
+  outline: 1px solid #3d4852;
+}
+
+a.button:visited {
+  color: #fff;
+}
+
+ul {
+  margin: 0 0 20rem;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+svg {
+  fill: currentColor;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+
+p {
+  margin: 0 0 .5rem;
+}
+
+main {
+  padding: 1rem 2rem;
+  margin: auto;
+}
+
+header {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.card {
+
+  border: 4px solid #fff;
+  border-radius: 40px;
+  padding: 1rem;
+
+  border-style: double; 
+}
+
+/********************************
+* Carousel styles
+*********************************/
+.carousel-items {
+  display: flex;
+  overflow-x: scroll;
+  padding: 1rem 0;
+  
+}
+
+.carousel-item {
+  flex: 1 0 250px;
+  margin-left: 1rem;
+ 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3d4852;
+  border-radius: 3px;
+}
+
+
+/********************************
+* Breakpoints
+*********************************/
+@media screen and (min-width: 576px) {
+  .carousel-item {
+      flex-basis: 300px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  body,
+  button,
+  input,
+  select,
+  optgroup,
+  textarea {
+      font-size: 1.125rem;
+  }
+
+  h1 {
+text-transform: uppercase;
+color: #fff;
+font-size: 58px;
+font-family: 'Confused', sans-serif;
+margin-top: 0px;
+
+color: #fff;
+text-align: center ;
+border: solid 1px white;
+padding: 1px;
+border-radius: 5px;
+
+
+
+
+}
+
+  .carousel-item {
+      flex-basis: 325px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  h1 {
+      font-size: 4rem;
+  }
+
+  .carousel-item {
+      flex-basis: 450px;
+  }
+}

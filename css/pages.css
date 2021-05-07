@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(to right, #202831 0%, #4d4d4f 100%);
+  font-size: 20px;
+}
+
+p {
+  color: #fff;
+  display: inline-block;
+  font-family: MV Boli;
+  padding: 4px;
+  word-spacing: 2px;
+
+  text-align: initial;
+  font-size: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  margin: 10px 0 10px;
+  font-family: "Confused", sans-serif;
+  color: #000;
+  text-align: center;
+  padding: 1px;
+  border-radius: 200px;
+  background-color: #fff;
+}
+
+h3 {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Bradley Hand ITC", sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+}
+
+img {
+  border: 5px solid grey;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.video {
+  text-align: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}

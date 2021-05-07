@@ -1,0 +1,92 @@
+html,body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family:MV Boli ,serif;
+}
+*{box-sizing:border-box;}
+
+#buttons{
+	 height:20%;
+	 width:100%;
+	 text-align:center;
+	 background: linear-gradient(to right, #202831 0%, #4d4d4f 100%);
+}
+h3{
+	padding:0;
+	float:left;
+	margin-left:10px;
+	margin-top:30px;
+}
+
+#html textarea{height:100%;width:100%;border:none;}
+
+ul{
+	display:inline-block;
+	padding:0px;
+	margin:0;
+	
+	border-radius:5px;
+	margin-top:10px;
+	border:1px solid black;
+}
+
+ul li{
+	list-style:none;
+	display:inline-block;
+	padding:10px;
+	border-right:1px solid black;
+	cursor:pointer;
+}
+
+button{
+	float:right;
+	margin:15px 18px 18px 18px;
+	border-radius:3px;
+	padding:9px;
+	width:70px;
+}
+
+
+.same{
+	
+	float:left;
+	border-right:1px solid black;
+}
+
+.codecontainer{
+	         width:50%;
+					 position:relative;
+					 height:100%;
+					 float:left;
+  
+				}
+.sub-container{
+	        position:absolute;
+					top:10px;
+					right:10px;
+			}
+
+.codecontainer textarea{
+				width:100%;
+				height:100%;
+				border:none;
+				padding:none;
+				border-right:1px solid black;
+				outline:none;
+				font-size:110%;
+}
+
+#CSScontainer,#JScontainer{
+	display:none;
+}
+
+.codecontainer iframe{
+
+	height:100%;
+	width:100%;
+	position:relative;
+	top:-10px;
+	border:none;
+}
