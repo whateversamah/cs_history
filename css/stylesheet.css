@@ -25,7 +25,7 @@
   font-size: 20px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, .7);
-  font-family:MV Boli ;
+  font-family: 'MV Boli', cursive;
   font-weight: normal;
   line-height: 25px;
 }
@@ -60,7 +60,7 @@
   width: 100%;
   position: absolute;
   color: rgba(255, 255, 255, .5);
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Bradley Hand ITC', sans-serif;
   border-left: 2px solid rgba(255, 255, 255, .5);
   top: 70%;
@@ -151,7 +151,7 @@
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, .5);
   font-family: 'Bradley Hand ITC', sans-serif;
-  font-size: 30px;
+  font-size: 16px;
   letter-spacing: 5px;
   margin: 10px 0 0 0;
   font-weight: normal;
@@ -262,7 +262,7 @@
   margin-left:40px;
   margin-right:40px;
 
-  font-family: 'Tempus Sans ITC', sans-serif;
+font-family: 'Tempus Sans ITC', sans-serif;
 
 
 }
@@ -286,17 +286,16 @@ body { color: #fff }
 
 }
 h5 {
-  font-family: 'Confused', sans-serif;
-    font-size: 50px;
-    color:white;
-   word-spacing: 3px;
+    font-family: 'confused', sans-serif;
+    font-size: 40px;
+  color:white;
     line-height: 60px;
  
 }
 p {
-  font-family:MV Boli ;
+    font-family: 'Tempus Sans ITC', sans-serif;
     font-size: 20px;
-   color:white;
+  color:white;
     line-height: 30px;
 }
 
@@ -305,7 +304,7 @@ p {
   display: block;
   width: 115px;
   height: 3px;
-  background: blue; }
+  background: #blue; }
 
 .animate-border:after {
   position: absolute;
@@ -398,7 +397,7 @@ p {
   .dk-footer-box-info .footer-social-link h3 {
     color: #fff;
     font-size: 50px;
-    margin-bottom: 25px;font-family: Concept Medium;letter-spacing: 2px; }
+    margin-bottom: 25px;font-family: 'confused', cursive;letter-spacing: 2px; }
   .dk-footer-box-info .footer-social-link ul {
     list-style-type: none;
     padding: 0;
@@ -470,9 +469,7 @@ p {
   margin-bottom: 15px;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
-  max-width: fit-content;
-  font-family: Concept Medium;
-  letter-spacing: 2px; }
+  max-width: fit-content;font-family: 'confused', cursive;letter-spacing: 2px; }
 
 .footer-widget ul {
   width: 50%;
@@ -482,9 +479,7 @@ p {
   padding: 0; }
 
 .footer-widget li {
-  margin-bottom: 18px;
-  font-family: 'KG Do You Love Me Regular', cursive; 
-}
+  margin-bottom: 18px;font-family: 'KG Do You Love Me Regular', cursive; }
 
 .footer-widget p {
   margin-bottom: 27px; }
@@ -566,7 +561,7 @@ p {
     font-size: 20px;
     color: #fff;
     margin-bottom: 0;
-    font-family: 'Confused', cursive;
+font-family: 'Confused', cursive;
 letter-spacing: 2px;
  }
 
@@ -588,7 +583,7 @@ letter-spacing: 2px;
 .copyright-menu ul {
   text-align: right;
   margin: 0; 
-  font-family: 'Confused', cursive;
+font-family: 'Confused', cursive;
 letter-spacing: 2px;}
 
 .copyright-menu li {
